@@ -14,11 +14,11 @@ This script, uses Youtube API V3 to extract data for each video in playlist, and
 -After Collecting this information, script uses https://ytmp3.cc/uu129cc/ online converter and downloads all videos in mp3 format, then saves it in a folder in the same dir, so videos are converted by below page, and script interacts with that page through web automation with Playright, so script acts like a real user.
 -What is special about this project is that it uses asynchronous programing, in order to automate multiple browsers at the same time, in order to get a faster download process, so multiple browser sessions are being run at the same time.
 
-REQUIREMENTS
+REQUIREMENTS: 
 Playwright --- https://playwright.dev/python/docs/intro
-GoogleApiClient --- https://pypi.org/project/google-api-python-client/
-OpenPyXl ---https://pypi.org/project/openpyxl/
-Requests --- https://pypi.org/project/requests/
+|| GoogleApiClient --- https://pypi.org/project/google-api-python-client/
+|| OpenPyXl ---https://pypi.org/project/openpyxl/
+|| Requests --- https://pypi.org/project/requests/
 
 
 
