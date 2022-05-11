@@ -14,8 +14,8 @@ dir_to_save_video = 'Downloaded_Songs\\'
 
 #extract playlist id from url
 
-# playlist_url = 'https://www.youtube.com/playlist?list=PLu9Vz-S8dcTFRigm63_S_bIQ3z_NvdOX9'
-playlist_url = 'https://www.youtube.com/playlist?list=PLcirGkCPmbmFMTvVKFvcG_tRAPkN_QcV1'
+
+playlist_url = 'playlist url'
 query = parse_qs(urlparse(playlist_url).query, keep_blank_values=True)
 playlist_id = query["list"][0]
 print(f'get all playlist items links from {playlist_id}')
