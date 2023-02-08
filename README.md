@@ -15,10 +15,10 @@ By providing an api-key (Google Cloud Platform), and enabling Youtube Api V3 (ht
 -What is special about this project is that it uses asynchronous programing, in order to automate multiple browsers at the same time, in order to get a faster download process, so multiple browser sessions are being run at the same time./n
 
 REQUIREMENTS: 
-Playwright --- https://playwright.dev/python/docs/intro
-|| GoogleApiClient --- https://pypi.org/project/google-api-python-client/
-|| OpenPyXl ---https://pypi.org/project/openpyxl/
-|| Requests --- https://pypi.org/project/requests/
+- Playwright --- https://playwright.dev/python/docs/intro
+- GoogleApiClient --- https://pypi.org/project/google-api-python-client/
+- OpenPyXl ---https://pypi.org/project/openpyxl/
+- Requests --- https://pypi.org/project/requests/
 
 
 
